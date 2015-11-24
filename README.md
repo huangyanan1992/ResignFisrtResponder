@@ -1,3 +1,3 @@
 # ResignFisrtResponder
 点击UITextField或者UITextView的之外的地方收起键盘。
-只需要UIViewController+Resign导入工程即可。
+只需要UIViewController+Resign，UIScrollview+Resign导入工程即可。
