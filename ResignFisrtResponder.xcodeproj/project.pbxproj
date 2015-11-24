@@ -13,6 +13,9 @@
 		66FAAF521C0413C60094E53C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66FAAF501C0413C60094E53C /* Main.storyboard */; };
 		66FAAF541C0413C60094E53C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66FAAF531C0413C60094E53C /* Assets.xcassets */; };
 		66FAAF571C0413C60094E53C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66FAAF551C0413C60094E53C /* LaunchScreen.storyboard */; };
+		66FAAF6A1C044DF10094E53C /* UIViewController+Resign.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FAAF691C044DF10094E53C /* UIViewController+Resign.m */; };
+		66FAAF6D1C044E760094E53C /* ModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FAAF6C1C044E760094E53C /* ModelViewController.m */; };
+		66FAAF701C044F2D0094E53C /* PrensentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FAAF6F1C044F2D0094E53C /* PrensentViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		66FAAF531C0413C60094E53C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66FAAF561C0413C60094E53C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		66FAAF581C0413C60094E53C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66FAAF681C044DF10094E53C /* UIViewController+Resign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Resign.h"; sourceTree = "<group>"; };
+		66FAAF691C044DF10094E53C /* UIViewController+Resign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Resign.m"; sourceTree = "<group>"; };
+		66FAAF6B1C044E760094E53C /* ModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelViewController.h; sourceTree = "<group>"; };
+		66FAAF6C1C044E760094E53C /* ModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelViewController.m; sourceTree = "<group>"; };
+		66FAAF6E1C044F2D0094E53C /* PrensentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrensentViewController.h; sourceTree = "<group>"; };
+		66FAAF6F1C044F2D0094E53C /* PrensentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrensentViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +67,15 @@
 		66FAAF461C0413C60094E53C /* ResignFisrtResponder */ = {
 			isa = PBXGroup;
 			children = (
+				66FAAF671C044DF10094E53C /* ResignFirstResponder */,
 				66FAAF4A1C0413C60094E53C /* AppDelegate.h */,
 				66FAAF4B1C0413C60094E53C /* AppDelegate.m */,
 				66FAAF4D1C0413C60094E53C /* ViewController.h */,
 				66FAAF4E1C0413C60094E53C /* ViewController.m */,
+				66FAAF6B1C044E760094E53C /* ModelViewController.h */,
+				66FAAF6C1C044E760094E53C /* ModelViewController.m */,
+				66FAAF6E1C044F2D0094E53C /* PrensentViewController.h */,
+				66FAAF6F1C044F2D0094E53C /* PrensentViewController.m */,
 				66FAAF501C0413C60094E53C /* Main.storyboard */,
 				66FAAF531C0413C60094E53C /* Assets.xcassets */,
 				66FAAF551C0413C60094E53C /* LaunchScreen.storyboard */,
@@ -77,6 +91,15 @@
 				66FAAF481C0413C60094E53C /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66FAAF671C044DF10094E53C /* ResignFirstResponder */ = {
+			isa = PBXGroup;
+			children = (
+				66FAAF681C044DF10094E53C /* UIViewController+Resign.h */,
+				66FAAF691C044DF10094E53C /* UIViewController+Resign.m */,
+			);
+			path = ResignFirstResponder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,7 +172,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66FAAF6A1C044DF10094E53C /* UIViewController+Resign.m in Sources */,
+				66FAAF6D1C044E760094E53C /* ModelViewController.m in Sources */,
 				66FAAF4F1C0413C60094E53C /* ViewController.m in Sources */,
+				66FAAF701C044F2D0094E53C /* PrensentViewController.m in Sources */,
 				66FAAF4C1C0413C60094E53C /* AppDelegate.m in Sources */,
 				66FAAF491C0413C60094E53C /* main.m in Sources */,
 			);
