@@ -19,6 +19,7 @@
     
 }
 
+//在这里写此方法是为了证明MethodSwizzing不会改变原方法的调用
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     [super touchesBegan:touches withEvent:event];
     NSLog(@"tuoch");

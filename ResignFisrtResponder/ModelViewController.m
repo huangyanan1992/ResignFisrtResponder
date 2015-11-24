@@ -18,6 +18,11 @@
     [super viewDidLoad];
     
 }
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    [super touchesBegan:touches withEvent:event];
+    NSLog(@"model");
+}
 - (IBAction)dismissAction:(UIButton *)sender {
     [self dismissViewControllerAnimated:YES completion:nil];
 }

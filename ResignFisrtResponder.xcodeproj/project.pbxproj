@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66CA009B1C045E2000186D44 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CA009A1C045E2000186D44 /* TestViewController.m */; };
+		66CA00A71C0465BF00186D44 /* UIScrollView+Resign.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CA00A61C0465BF00186D44 /* UIScrollView+Resign.m */; };
 		66FAAF491C0413C60094E53C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FAAF481C0413C60094E53C /* main.m */; };
 		66FAAF4C1C0413C60094E53C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FAAF4B1C0413C60094E53C /* AppDelegate.m */; };
 		66FAAF4F1C0413C60094E53C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FAAF4E1C0413C60094E53C /* ViewController.m */; };
@@ -19,6 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		66CA00991C045E2000186D44 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		66CA009A1C045E2000186D44 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		66CA00A51C0465BF00186D44 /* UIScrollView+Resign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+Resign.h"; sourceTree = "<group>"; };
+		66CA00A61C0465BF00186D44 /* UIScrollView+Resign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+Resign.m"; sourceTree = "<group>"; };
 		66FAAF441C0413C60094E53C /* ResignFisrtResponder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResignFisrtResponder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66FAAF481C0413C60094E53C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		66FAAF4A1C0413C60094E53C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -76,6 +82,8 @@
 				66FAAF6C1C044E760094E53C /* ModelViewController.m */,
 				66FAAF6E1C044F2D0094E53C /* PrensentViewController.h */,
 				66FAAF6F1C044F2D0094E53C /* PrensentViewController.m */,
+				66CA00991C045E2000186D44 /* TestViewController.h */,
+				66CA009A1C045E2000186D44 /* TestViewController.m */,
 				66FAAF501C0413C60094E53C /* Main.storyboard */,
 				66FAAF531C0413C60094E53C /* Assets.xcassets */,
 				66FAAF551C0413C60094E53C /* LaunchScreen.storyboard */,
@@ -98,6 +106,8 @@
 			children = (
 				66FAAF681C044DF10094E53C /* UIViewController+Resign.h */,
 				66FAAF691C044DF10094E53C /* UIViewController+Resign.m */,
+				66CA00A51C0465BF00186D44 /* UIScrollView+Resign.h */,
+				66CA00A61C0465BF00186D44 /* UIScrollView+Resign.m */,
 			);
 			path = ResignFirstResponder;
 			sourceTree = "<group>";
@@ -173,10 +183,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				66FAAF6A1C044DF10094E53C /* UIViewController+Resign.m in Sources */,
+				66CA00A71C0465BF00186D44 /* UIScrollView+Resign.m in Sources */,
 				66FAAF6D1C044E760094E53C /* ModelViewController.m in Sources */,
 				66FAAF4F1C0413C60094E53C /* ViewController.m in Sources */,
 				66FAAF701C044F2D0094E53C /* PrensentViewController.m in Sources */,
 				66FAAF4C1C0413C60094E53C /* AppDelegate.m in Sources */,
+				66CA009B1C045E2000186D44 /* TestViewController.m in Sources */,
 				66FAAF491C0413C60094E53C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,6 +336,7 @@
 				66FAAF5D1C0413C60094E53C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
