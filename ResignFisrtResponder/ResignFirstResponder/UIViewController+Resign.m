@@ -13,7 +13,13 @@ static inline void swizzleSelector(Class clazz,SEL originalSelector , SEL swizzl
     Class class = clazz ;
     Method originalMethod = class_getInstanceMethod(class, originalSelector);
     Method swizzledMethod = class_getInstanceMethod(class, swizzledSelector);
-    BOOL didAddMethodInit =     class_addMethod(class, originalSelector, method_getImplementation(swizzledMethod), method_getTypeEncoding(swizzledMethod));
+    
+    /*判断当前类是否实现了该方法
+     *1.如果实现了则不仅要调用原方法还要调用Swizzing实现的方法
+     *2.通过class_addMethod添加新方法，而不仅仅是exchange
+     *3.如果没有调用，直接exchange
+     */
+    BOOL didAddMethodInit = class_addMethod(class, originalSelector, method_getImplementation(swizzledMethod), method_getTypeEncoding(swizzledMethod));
     if (didAddMethodInit) {
         class_addMethod(class, swizzledSelector, method_getImplementation(swizzledMethod), method_getTypeEncoding(swizzledMethod));
     }else{
